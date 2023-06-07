@@ -1,0 +1,21 @@
+ Abstraction means - A process of hiding the implementation details 
+ and showing only functionality to the user.
+ 
+ example : sending SMS where you type the text and send the message. 
+ You don't know the internal processing about the message delivery.
+ 
+ A class which is declared as abstract is known as an abstract class. 
+ It can have abstract and non-abstract methods. 
+ It needs to be extended and its method implemented. It cannot be instantiated.
+ 
+ 
+    An abstract class must be declared with an abstract keyword.
+    It can have abstract and non-abstract methods.
+    It cannot be instantiated.
+    It can have constructors and static methods also.
+    It can have final methods which will force the subclass 
+    not to change the body of the method.
+ 
+ Example of abstract class :     abstract class A{}  
+ 
+ Example of abstract method :     abstract void printStatus();//no method body and abstract  

@@ -1,0 +1,29 @@
+There are four types of Access Modifiers.
+
+1. Private
+2. Default
+3. Protected
+4. Public
+
+Private:
+
+The private access modifier is accessible only within the class.
+Note: A class cannot be private or protected except nested class.
+
+Default :
+
+The default modifier is accessible only within package. 
+It cannot be accessed from outside the package.
+
+Protected :
+
+The protected access modifier is accessible within package 
+and outside the package but through inheritance only.
+
+The protected access modifier can be applied on the data member, 
+method and constructor. It can't be applied on the class. 
+
+Public :
+
+The public access modifier is accessible everywhere. 
+It has the widest scope among all other modifiers.
